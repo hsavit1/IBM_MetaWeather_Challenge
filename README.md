@@ -22,7 +22,7 @@ I would have submitted this challenge as a React Native project in Javascript, h
 
 So I stuck to my guts. My experience with Redux and React Native has only been good to me, so I decided to give it's closed Swift cousin, ReSwift, my best shot. 
 
-It was going well at first, especially with Core Data, and I decided to just push forwards and work with it. I even added a feature to swipe to delete a searched city from your history, as my immutable Core Data store made updates trivial. Unfortunately, I did run into a few roadblocks. Most notably, I needed to experiment with a few middlewares and ended up going with a classic antipattern, **a singleton** api manager, to get the job done. I was very unhappy with the solution. Additionally, I wasn't able to manage routing with ReSwift or the ReSwiftRouter, would have been a very helpful bonus.
+It was going well at first, especially with Core Data, and I decided to just push forwards and work with it. I even added a feature to swipe to delete a searched city from your history, as my immutable Core Data store made updates trivial. Unfortunately, I did run into a few roadblocks. Most notably, I needed to experiment with a few middlewares to dispatch asynchronous requests and didn't have the time so I ended up utilizing with a classic antipattern, **a singleton** api manager, to get the job done. I was very unhappy with the solution. Additionally, I wasn't able to manage routing with ReSwift or the ReSwiftRouter, would have been a very helpful bonus.
 
 Unfortunately, I discovered that there are just a few differences between ReSwift and Redux that caused me some trouble, and I was forced to go with what comes off as a hacky solution to finish on time. However, it does mostly work. 
 
