@@ -1,7 +1,7 @@
 # IBM_MetaWeather_Challenge
 
 
-Note: To run this app, please first run `pod install` to get the cocoapods dependencies
+Note: To run this app, please open the .xcworksapce file
 
 ---
 
