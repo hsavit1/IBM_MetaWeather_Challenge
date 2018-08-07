@@ -1,7 +1,14 @@
 # IBM_MetaWeather_Challenge
 
+## UPDATE: I created a sister project in React Native that you can find [here](https://github.com/hsavit1/React_Native_IBM_MetaWeather_Challenge). 
 
-Note: To run this app, please open the .xcworksapce file
+The React Native solution came off as much more elegant than the Swift solution, as I was able to put pretty much all of the app's functionality in Redux.
+
+While doing the React Native project, I also discovered that I misinterpreted the prompt in the Swift project and did not save the search keywords to local storage, but I instead saved the searched city. 
+
+---
+
+Note: To run this app, please run `pod install` and open the .xcworksapce file
 
 ---
 
